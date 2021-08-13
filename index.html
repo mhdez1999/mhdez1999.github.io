@@ -1,287 +1,100 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>11 meses juntos...</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="estilo.css">
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+    <title>Felices 11 meses juntos...</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
+    <!-- Bootstrap core CSS -->
+    <link href="./files/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="./files/album.css" rel="stylesheet">
   </head>
   <body>
+    <header>
 
-    <div class="container main-container">
-      <center><h1>Feliz Mesversario, mi amor</h1></center>
-      <hr>
-      <p>¡Hola hermosa! Decidí realizar este pequeño sitio web para reunir y almacenar de manera dígital algunos de nuestros muchos recuerdos que ya tenemos juntos. Escribo esto totalmente emocionado y con muchas ganas de contarte lo que estoy haciendo, y con unas ganas muy grandes de decirte lo muchisimo que te amo... Gracias por estar en mi vida :)
-      </p>
-    </div>
-    
-    <br/>
-    <br/>
+      <div class="navbar navbar-dark bg-dark box-shadow">
+        <div class="container d-flex justify-content-between">
+          <a href="index.html" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+            <strong>Album de recuerdos</strong>
+          </a>
+        </div>
+      </div>
+    </header>
 
- <!-- Carousel wrapper -->
-<div
-  id="carouselMultiItemExample"
-  class="carousel slide carousel-dark text-center"
-  data-mdb-ride="carousel"
->
-  <!-- Controls -->
-  <div class="d-flex justify-content-center mb-4">
-    <button
-      class="carousel-control-prev position-relative"
-      type="button"
-      data-mdb-target="#carouselMultiItemExample"
-      data-mdb-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button
-      class="carousel-control-next position-relative"
-      type="button"
-      data-mdb-target="#carouselMultiItemExample"
-      data-mdb-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- Inner -->
-  <div class="carousel-inner py-4">
-    <!-- Single item -->
-    <div class="carousel-item active">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/181.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Hola mundo 1</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+    <main role="main">
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">¡Feliz Mesversario, mi amor!</h1>
+          <p class="lead text-muted">¡Hola hermosa!
+            <br/> Decidí realizar este pequeño sitio web para reunir y almacenar de manera dígital algunos de nuestros muchos recuerdos que ya tenemos juntos. Escribo esto totalmente emocionado y con muchas ganas de contarte lo que estoy haciendo, y con unas ganas muy grandes de decirte lo muchisimo que te amo...
+            <br/> Gracias por estar en mi vida.
+          </p>
+        </div>
+      </section>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" style="height: 225px; width: 100%; display: block;" src="./files/ad.jpeg" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">
+                    <strong>Fotografias</strong>
+                    En esta sección encontrarás una pequeña recopilación de las muchas fotos que tenemos...
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                        <input type="button" onclick="location.href='fotos.html';" value="Entrar" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 d-none d-lg-block">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/182.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Hola mundo 2</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" style="height: 225px; width: 100%; display: block;" src="./files/ay.jpeg" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">
+                    <strong>Videos</strong>
+                      Aquí se encuentran algunos de los muchos videos que tenemos juntooooooos,
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <input type="button" onclick="location.href='videos.html';" value="Entrar" />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-4 d-none d-lg-block">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/183.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Hola mundo 3</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
+            <div class="col-md-4">
+              <div class="card mb-4 box-shadow">
+                <img class="card-img-top" style="height: 225px; width: 100%; display: block;" src="./files/q.jpeg" data-holder-rendered="true">
+                <div class="card-body">
+                  <p class="card-text">
+                    <strong>Extras</strong>
+                    Aquí podrás ver algunas cosas extras, como por ejemplos, canciones, regalos, y otros recuerdos juntos.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <input type="button" onclick="location.href='extras.html';" value="Entrar" />
+                    <div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
-    <!-- Single item -->
-    <div class="carousel-item">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Hola mundo 4</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 d-none d-lg-block">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/185.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 d-none d-lg-block">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/186.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Single item -->
-    <div class="carousel-item">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/187.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/188.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
-            <div class="card">
-              <img
-                src="https://mdbootstrap.com/img/new/standard/nature/189.jpg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up the bulk
-                  of the card's content.
-                </p>
-                <a href="#!" class="btn btn-primary">Button</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Inner -->
-</div>
-<!-- Carousel wrapper -->
-    
-    <br/>
-    <br/>
-    
-    
-    <div class="row">
-      <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-        <img
-          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-        />
-
-        <img
-          src="https://mdbootstrap.com/img/Photos/Vertical/mountain1.jpg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-        />
-      </div>
-
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <img
-          src="https://mdbootstrap.com/img/Photos/Vertical/mountain2.jpg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-        />
-
-        <img
-          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-        />
-      </div>
-
-      <div class="col-lg-4 mb-4 mb-lg-0">
-        <img
-          src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-        />
-
-        <img
-          src="https://mdbootstrap.com/img/Photos/Vertical/mountain3.jpg"
-          class="w-100 shadow-1-strong rounded mb-4"
-          alt=""
-        />
-      </div>
-    </div>
-    
-  </body>
+    <script src="./files/jquery-3.2.1.slim.min.js.descarga" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="./files/popper.min.js.descarga"></script>
+    <script src="./files/bootstrap.min.js.descarga"></script>
+    <script src="./files/holder.min.js.descarga"></script>
 </html>
